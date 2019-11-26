@@ -1,6 +1,6 @@
 !#/bin/bash
 git clone https://github.com/vijaytech2/appdemo.git
-cd myapp-php/
+cd appdemo/myapp-php
 sh dependencies.sh
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install
