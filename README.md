@@ -1,4 +1,4 @@
-# Welcome to Nuage Academy
+# Welcome to AWS Training
 
 ### Please apply the following commands in user data while launch the EC2 instance.
 
@@ -10,9 +10,9 @@ yum update -y
 
 yum install git -y
 
-git clone https://github.com/cvragavan/NuageAcademy.git
+git clone https://github.com/vijaytech2/userdata.git
 
-cd NuageAcademy
+cd userdata/
 
 sh installs_httpd_centos.sh
 
@@ -24,9 +24,9 @@ yum update -y
 
 yum install git -y
 
-git clone https://github.com/cvragavan/NuageAcademy.git
+git clone https://github.com/vijaytech2/userdata.git
 
-cd NuageAcademy
+cd userdata/
 
 sh installs_httpd_redhat.sh
 
@@ -38,9 +38,9 @@ yum update -y
 
 yum install git -y
 
-git clone https://github.com/cvragavan/NuageAcademy.git
+git clone https://github.com/vijaytech2/userdata.git
 
-cd NuageAcademy
+cd userdata/
 
 sh installs_httpd_ubuntu.sh
 
